@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tornearia Soares</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="https://api.whatsapp.com/send?l=pt&amp;phone=558396628001"><img src="https://i.imgur.com/ryESuZ5.png" style="height:80px; position:fixed; bottom: 25px; right: 25px; z-index:99999;" data-selector="img"></a>
+
+
+<header class="main-header">
+	<i class="ancora" id="header" ></i> <!-- para alinhar ao clicar no link da barra de navegação -->
+	<video class="header-video" src="./videos/engrenagem.mp4" autoplay muted loop></video>
+	<nav class="navigation">
+		<ul class="navigation-list">
+			<li class="navigation-list-item">
+				<a href="#header" class="nav-link" >Home</a>
+			</li>
+			<li class="navigation-list-item">
+				<a href="#lugar" class="nav-link" >O lugar</a>
+			</li>
+			<li class="navigation-list-item">
+				<a href="#drinks" class="nav-link" >Nossos Serviços</a>
+			</li>
+			<li class="navigation-list-item">
+				<a href="#footer" class="nav-link" >Localização</a>
+			</li>
+		</ul>
+	</nav>
+	<img class="logo" src="./images/logo.png" />
+</header>
+
+<section class="lugar section-backgraund">
+	<i class="ancora" id="lugar" ></i>
+	<div class="section-container" >
+		<h1 class="section-title" >O lugar</h1>
+		<p class="section-text" >
+			Nossa empresa fica cituada na melhor localização da cidade...
+		</p>
+<!-- 		<p class="section-text" >
+			Cada vagão possui um estilo próprio. São 5 ambientes diferentes distribuídos em 10 vagões, oferecendo diversos tipos de música e bebidas.
+		</p> -->
+	</div>
+</section>
+
+<section class="drinks section-backgraund">
+	<i class="ancora" id="drinks" ></i>
+	<div class="section-container" >
+		<h1 class="section-title" >Nossos Serviços</h1>
+		<!-- <img class="drink-image"  src="./images/cocktails.jpg" /> -->
+		<p class="section-text" >
+			Possuímos os mais diversos tipos de serviços na area de usinagem e fundição
+		</p>
+	</div>
+</section>
+
+<footer class="main-footer" >
+	<i class="ancora" id="footer" ></i>
+	<section class="footer-section" >
+		<h1>Contatos</h1>
+		<p>(83) 9.9662-8001</p>
+		<p>(83) 9.9181-0203</p>
+		<p>torneariasoaresczb@gmail.com</p>
+	</section>
+	<section class="footer-section" >
+		<h1>Endereço</h1>
+		<p>Rua Mons. Sabino Coelho, Capoeiras, Nº 245</p>
+		<p>Cajazeiras-PB. CEP: 58900-000</p>
+	</section>
+	<section class="footer-section" >
+		<h1>Funcionamento</h1>
+		<p>Segunda a Sexta<br>
+			08:00 - 18:00
+		</p>
+		<p>Sábados<br>
+			08:00 - 12:00
+		</p>
+	</section>
+</footer>
+<script>
+	window.confirm("Quer entrar neste mundo?")
+	window.alert('Olá mecanicos')
+	/*window.prompt('Digiente um Valor: ')
+	window.prompt('Digite outro valor: ')
+	window.prompt('Digite um uindade de medida: ') */ 
+	var valor1 = Number.parseFloat(window.prompt('Digite um valor: ')) //quandando o valor e transformando em numero real
+	var valor2 = Number.parseFloat(window.prompt('Digite outro valor: '))
+	var unidade = window.prompt('Digite um a unidade de medida: ')
+	var valortotal = valor1 + valor2
+	window.alert('O valor total é: ' + valortotal + ' ' + unidade)
+</script>
+
+</body>
+</html>
